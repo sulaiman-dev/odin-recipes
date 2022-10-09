@@ -1,3 +1,6 @@
-# odin-recipes
+## odin-recipes
 
-## the odin project curriculum recipes website to recap HTML.
+### the odin project curriculum recipes website.
+
+- To Learn/Practise
+  - Web Development Foundations.
