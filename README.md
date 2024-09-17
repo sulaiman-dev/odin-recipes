@@ -2,5 +2,4 @@
 
 ### the odin project curriculum recipes website.
 
-- To Learn/Practise
-  - Web Development Foundations.
+- To walk/go through Odin Project curriculum.

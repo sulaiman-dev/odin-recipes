@@ -1,0 +1,124 @@
+/* Reset some default browser styles */
+body,
+h1,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Apply a clean and modern font */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Center the main content */
+#main-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Style the image */
+#main-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+/* Style the subheading */
+#subheading {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Style the list of recipes */
+#recipe-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-item:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Detail page header and footer Styles */
+.header,
+.footer {
+  text-align: center;
+}
+.recipe-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.recipe-image {
+  display: block;
+  max-width: 600px; /* Set a maximum width */
+  width: 100%; /* Ensure it scales down for smaller screens */
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+.recipe-description {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.ingredients-list,
+.steps-list {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.ingredient-item,
+.step-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.ingredient-item:hover,
+.step-item:hover {
+  transform: scale(1.05);
+}
